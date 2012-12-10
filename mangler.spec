@@ -2,8 +2,8 @@
 
 Summary:	Mangler is an open source VOIP client
 Name:		mangler
-Version:	1.2.4
-Release:	1
+Version:	1.2.2
+Release:	2
 Group:		Networking/Chat
 License:	GPLv3
 URL:		http://www.mangler.org/
@@ -26,9 +26,10 @@ BuildRequires:	gsm-devel
 Obsoletes:	%name < %version
 
 %description
-Mangler is an open source VOIP client capable of connecting to Ventrilo 3.x servers. 
-It is capable of performing almost all standard user functionality found in a Windows 
-Ventrilo client.
+Mangler is an open source VOIP client capable of connecting
+to Ventrilo 3.x servers. 
+It is capable of performing almost all standard user
+functionality found in a Windows Ventrilo client.
 
 %package -n	%{develname}
 Summary:	Header files and static library for %{name}
@@ -90,5 +91,11 @@ install -m 644 %SOURCE1 %{buildroot}/%{_datadir}/pixmaps
 %files -n %{develname}
 %{_libdir}/libventrilo3.so
 %{_libdir}/libventrilo3.a
-%{_libdir}/libventrilo3.la
 %{_includedir}/ventrilo3.h
+
+
+%changelog
+* Fri Nov 18 2011 Alexander Khrukin <akhrukin@mandriva.org> 1.2.2-1
++ Revision: 731513
+- imported package mangler
+
