@@ -3,7 +3,7 @@
 Summary:	Mangler is an open source VOIP client
 Name:		mangler
 Version:	1.2.2
-Release:	2
+Release:	3
 Group:		Networking/Chat
 License:	GPLv3
 URL:		http://www.mangler.org/
@@ -72,14 +72,6 @@ rm -f %{buildroot}/%{_datadir}/pixmaps/*.svg
 #icon
 install -dm 755 %{buildroot}%{_datadir}/pixmaps
 install -m 644 %SOURCE1 %{buildroot}/%{_datadir}/pixmaps
-
-%post
-%{update_menus}
-%{update_desktop_database}
-
-%postun
-%{clean_menus}
-%{clean_desktop_database}
 
 %files 
 %doc COPYING AUTHORS ChangeLog NEWS README
