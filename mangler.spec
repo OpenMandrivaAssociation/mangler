@@ -20,7 +20,7 @@ BuildRequires:	libtool
 BuildRequires:	speex-devel
 BuildRequires:	pixman-devel
 BuildRequires:	pangomm2.4-devel
-BuildRequires:	libpng-devel
+BuildRequires:	pkgconfig(libpng)
 BuildRequires:	gdk-pixbuf-devel
 BuildRequires:	gsm-devel
 Obsoletes:	%name < %version
