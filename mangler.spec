@@ -3,7 +3,7 @@
 Summary:	Mangler is an open source VOIP client
 Name:		mangler
 Version:	1.2.2
-Release:	3
+Release:	4
 Group:		Networking/Chat
 License:	GPLv3
 URL:		http://www.mangler.org/
