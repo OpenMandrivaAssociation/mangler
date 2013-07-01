@@ -1,6 +1,6 @@
 %define develname %{name}-devel 
 
-Summary:	Mangler is an open source VOIP client
+Summary:	Is an open source VOIP client
 Name:		mangler
 Version:	1.2.2
 Release:	5
