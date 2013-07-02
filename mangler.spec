@@ -1,9 +1,9 @@
 %define develname %{name}-devel 
 
-Summary:	Is an open source VOIP client
+Summary:	An open source VOIP client
 Name:		mangler
 Version:	1.2.2
-Release:	5
+Release:	6
 Group:		Networking/Chat
 License:	GPLv3
 URL:		http://www.mangler.org/
