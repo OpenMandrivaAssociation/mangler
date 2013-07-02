@@ -21,7 +21,7 @@ BuildRequires:	speex-devel
 BuildRequires:	pixman-devel
 BuildRequires:	pangomm2.4-devel
 BuildRequires:	pkgconfig(libpng)
-BuildRequires:	gdk-pixbuf-devel
+BuildRequires:	pkgconfig(gdk-pixbuf-2.0)
 BuildRequires:	gsm-devel
 Obsoletes:	%name < %version
 
