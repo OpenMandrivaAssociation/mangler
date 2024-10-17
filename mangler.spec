@@ -6,7 +6,7 @@ Version:	1.2.2
 Release:	7
 Group:		Networking/Chat
 License:	GPLv3
-URL:		http://www.mangler.org/
+URL:		https://www.mangler.org/
 Source0:	http://www.mangler.org/%{name}-%{version}.tar.gz
 Source1:	%{name}.png		
 BuildRequires:  pkgconfig(gtk+-2.0)
