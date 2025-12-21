@@ -9,6 +9,11 @@ License:	GPLv3
 URL:		https://www.mangler.org/
 Source0:	http://www.mangler.org/%{name}-%{version}.tar.gz
 Source1:	%{name}.png		
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:  pkgconfig(gtk+-2.0)
 BuildRequires:	desktop-file-utils
 BuildRequires:	freetype-devel
